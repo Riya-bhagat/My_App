@@ -10,7 +10,7 @@ class Homepage extends StatelessWidget{
         title: const Text("Rivision App"),
       ),
       body:  Center(
-        child:Text("Hello, i am here to learn something new in $days"), //$ along with datatype variable name allow to print the value of that datatype.
+        child:Text("Hello, i am here to learn something new in $days days"), //$ along with datatype variable name allow to print the value of that datatype.
       ),
       drawer:const Drawer(),
     );
